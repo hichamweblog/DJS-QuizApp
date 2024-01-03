@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <script src="app.js" type="module" defer></script>
+  <title>Document</title>
+</head>
+
+<body>
+  <div class="quiz-container">
+    <h1>JavaScript Quiz</h1>
+
+    <form id="quizForm" action="#" method="post">
+
+      <!-- Question 1 -->
+      <div class="question">
+        <p>1. What is the correct way to include an external JavaScript file?</p>
+        <label>
+          <input required type="radio" name="q1" value="a"> a) &lt;script src="script.js"&gt;&lt;/script&gt;
+        </label>
+        <label>
+          <input required type="radio" name="q1" value="b"> b) &lt;javascript src="script.js"&gt;&lt;/javascript&gt;
+        </label>
+        <label>
+          <input required type="radio" name="q1" value="c"> c) &lt;js src="script.js"&gt;&lt;/js&gt;
+        </label>
+        <label>
+          <input required type="radio" name="q1" value="d"> d) &lt;include src="script.js"&gt;&lt;/include&gt;
+        </label>
+      </div>
+
+      <!-- Question 2 -->
+      <div class="question">
+        <p>2. What is the result of the following expression: 5 + "5"?</p>
+        <label>
+          <input required type="radio" name="q2" value="a"> a) 55
+        </label>
+        <label>
+          <input required type="radio" name="q2" value="b"> b) 10
+        </label>
+        <label>
+          <input required type="radio" name="q2" value="c"> c) "55"
+        </label>
+        <label>
+          <input required type="radio" name="q2" value="d"> d) Error
+        </label>
+      </div>
+
+      <!-- Question 3 -->
+      <div class="question">
+        <p>3. What is the purpose of the `let` keyword in JavaScript?</p>
+        <label>
+          <input required type="radio" name="q3" value="a"> a) Declaring a variable with block scope
+        </label>
+        <label>
+          <input required type="radio" name="q3" value="b"> b) Declaring a variable with global scope
+        </label>
+        <label>
+          <input required type="radio" name="q3" value="c"> c) Declaring a constant
+        </label>
+        <label>
+          <input required type="radio" name="q3" value="d"> d) Declaring an array
+        </label>
+      </div>
+
+      <!-- Question 4 -->
+      <div class="question">
+        <p>4. What does the `NaN` stand for in JavaScript?</p>
+        <label>
+          <input required type="radio" name="q4" value="a"> a) Not a Number
+        </label>
+        <label>
+          <input required type="radio" name="q4" value="b"> b) No assignment
+        </label>
+        <label>
+          <input required type="radio" name="q4" value="c"> c) Null and Negative
+        </label>
+        <label>
+          <input required type="radio" name="q4" value="d"> d) New Assignment
+        </label>
+      </div>
+
+      <!-- Question 5 -->
+      <div class="question">
+        <p>5. What is the purpose of the `addEventListener` method in JavaScript?</p>
+        <label>
+          <input required type="radio" name="q5" value="a"> a) Adding a new event listener
+        </label>
+        <label>
+          <input required type="radio" name="q5" value="b"> b) Attaching an event handler to an element
+        </label>
+        <label>
+          <input required type="radio" name="q5" value="c"> c) Adjusting the event order
+        </label>
+        <label>
+          <input required type="radio" name="q5" value="d"> d) All of the above
+        </label>
+      </div>
+
+      <!-- Question 6 -->
+      <div class="question">
+        <p>6. How do you comment in JavaScript?</p>
+        <label>
+          <input required type="radio" name="q6" value="a"> a) /* Comment */
+        </label>
+        <label>
+          <input required type="radio" name="q6" value="b"> b) // Comment
+        </label>
+        <label>
+          <input required type="radio" name="q6" value="c"> c) # Comment
+        </label>
+        <label>
+          <input required type="radio" name="q6" value="d"> d) -- Comment
+        </label>
+      </div>
+
+      <!-- Question 7 -->
+      <div class="question">
+        <p>7. What is the purpose of the `localStorage` in JavaScript?</p>
+        <label>
+          <input required type="radio" name="q7" value="a"> a) Storing data that has no expiration time
+        </label>
+        <label>
+          <input required type="radio" name="q7" value="b"> b) Storing data with a specific expiration time
+        </label>
+        <label>
+          <input required type="radio" name="q7" value="c"> c) Storing data on the server
+        </label>
+        <label>
+          <input required type="radio" name="q7" value="d"> d) All of the above
+        </label>
+      </div>
+
+      <!-- Question 8 -->
+      <div class="question">
+        <p>8. How do you declare a function in JavaScript?</p>
+        <label>
+          <input required type="radio" name="q8" value="a"> a) function myFunction() {}
+        </label>
+        <label>
+          <input required type="radio" name="q8" value="b"> b) myFunction: function() {}
+        </label>
+        <label>
+          <input required type="radio" name="q8" value="c"> c) declare function myFunction() {}
+        </label>
+        <label>
+          <input required type="radio" name="q8" value="d"> d) def myFunction() {}
+        </label>
+      </div>
+
+      <!-- Question 9 -->
+      <div class="question">
+        <p>9. What is the purpose of the `setTimeout` function in JavaScript?</p>
+        <label>
+          <input required type="radio" name="q9" value="a"> a) Executing a function after a specified delay
+        </label>
+        <label>
+          <input required type="radio" name="q9" value="b"> b) Setting an interval for a function
+        </label>
+        <label>
+          <input required type="radio" name="q9" value="c"> c) Pausing the execution of a function
+        </label>
+        <label>
+          <input required type="radio" name="q9" value="d"> d) All of the above
+        </label>
+      </div>
+
+      <!-- Question 10 -->
+      <div class="question">
+        <p>10. What is the purpose of the `JSON.stringify` method in JavaScript?</p>
+        <label>
+          <input required type="radio" name="q10" value="a"> a) Parsing a JSON string
+        </label>
+        <label>
+          <input required type="radio" name="q10" value="b"> b) Converting a JavaScript object to a JSON string
+        </label>
+        <label>
+          <input required type="radio" name="q10" value="c"> c) Extracting data from a JSON string
+        </label>
+        <label>
+          <input required type="radio" name="q10" value="d"> d) None of the above
+        </label>
+      </div>
+
+      <button class="btn btn-submit" type="submit">Submit Quiz</button>
+    </form>
+  </div>
+</body>
+
+</html>
