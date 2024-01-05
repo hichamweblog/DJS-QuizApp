@@ -1,4 +1,3 @@
-
 const correctAnswers = ['a', 'c', 'a', 'a', 'b', 'b', 'a', 'a', 'a', 'b'];
 const form = document.querySelector('form');
 const questions = document.querySelectorAll('.question');
